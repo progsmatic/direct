@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect Website</title>
+    <script>
+        // Ganti "tujuan_domain" dengan domain yang ingin Anda arahkan
+        var tujuan_domain = "https://mhs.rikyrism.dev";
+
+        // Fungsi untuk melakukan pengalihan
+        function redirect() {
+            window.location.href = tujuan_domain;
+        }
+
+        // Mengarahkan setelah halaman dimuat
+        window.onload = redirect;
+    </script>
+</head>
+<body>
+    <p>Jika Kamu tidak diarahkan, klik <a href="https://mhs.rikyrism.dev">di sini</a>.</p>
+</body>
+</html>
